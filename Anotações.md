@@ -94,20 +94,6 @@ relembrar a ordem de precedência das operações, temos as seguintes prioridade
 | Adição | (+) |
 | Subtração | (-) |
 
-## Exercício 2.1 Converta as seguintes expressões matemáticas para que possam ser calculadas usando o interpretador Python.                          
-10 + 20 × 30                          
-                                                     
-4^2 ÷ 30                                                                                    
-                                                                    
-(9^4 + 2) × 6 - 1                                                                          
-           
-
-## Exercício 2.2 Digite a seguinte expressão no interpretador:                                                  
-10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2                                                                              
-                                                                                    
-Tente resolver o mesmo cálculo, usando apenas lápis e papel. Observe como a
-prioridade das operações é importante.
-
 ## Conceitos de variáveis e atribuição
 
 Para armazenar algo nesses compartimentos, usaremos o símbolo de igualdade (=) 
@@ -167,17 +153,6 @@ Em ❶ temos uma variável que é chamada salário, recebendo o valor 1500. Em �
 outra variável, aumento, recebe o valor 5. Finalmente, em ❸ descrevemos a fórmula
 que calculará o valor do novo salário depois de receber um aumento. Teríamos,
 então, o resultado de **1575**.
-
-## Exercício 2.3 Faça um programa que exiba seu nome na tela.
-
-## Exercício 2.4 Escreva um programa que exiba o resultado de 2a × 3b, onde a vale
-3 e b vale 5.
-
-## Exercício 2.5 Modifique o primeiro programa, listagem 2.7, de forma a calcular a
-soma de três variáveis.
-
-## Exercício 2.6 Modifique o programa da listagem 2.11, de forma que ele calcule um
-aumento de 15% para um salário de R$ 750.
 
 # [Capitulo 3](https://linktr.ee/enthonyaraujo)
 ## Variáveis e entrada de dados
