@@ -338,8 +338,20 @@ Digite seu numero: 8
 >>> print(x)
 8
 ```
-Exemplo de entrada de dados com **String**
 
+```
+Exemplo de entrada de dados com **String**
+nome = input("Digite seu nome: ")
+print("Voce digitou %s" % nome  )
+```
+
+## Conversão de entradas de dados
+A função **input** sempre retorna valores em string, mesmo se for números. Para resolver esse problema utilizando a função **int** ou **float**.
+
+```
+idade = int(input("Digite sua idade: "))
+print("Você tem: %d Anos" % idade)
+```
 
 
 
