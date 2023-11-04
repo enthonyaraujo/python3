@@ -25,4 +25,6 @@ precisamos marcar ou limitar o início e o fim de nossas mensagens com um símbo
 nesse caso, aspas.
 
 # [Capitulo 2](https://linktr.ee/enthonyaraujo)
-##
+## Preparando o ambiente
+
+Você pode baixar python em (https://www.python.org/downloads/)
