@@ -1,5 +1,5 @@
 # [Capitulo 1](https://linktr.ee/enthonyaraujo)
-## Motivação
+# Motivação
 
 Este livro foi escrito com o iniciante em programação em mente. Embora a
 linguagem Python seja muito poderosa e rica em recursos modernos de programação,
@@ -25,7 +25,7 @@ precisamos marcar ou limitar o início e o fim de nossas mensagens com um símbo
 nesse caso, aspas.
 
 # [Capitulo 2](https://linktr.ee/enthonyaraujo)
-## Preparando o ambiente
+# Preparando o ambiente
 
 Você pode baixar python em https://www.python.org/downloads/ .E escolher seu sistema, seja ele Windows, Linux ou MacOS.
 
@@ -122,7 +122,7 @@ que calculará o valor do novo salário depois de receber um aumento. Teríamos,
 então, o resultado de **1575**.
 
 # [Capitulo 3](https://linktr.ee/enthonyaraujo)
-## Variáveis e entrada de dados
+# Variáveis e entrada de dados
 
 Nomes de variaveis devem inciar com letra, mas podem ter números e o simbolo de underline(_)
 
@@ -352,6 +352,8 @@ A função **input** sempre retorna valores em string, mesmo se for números. Pa
 idade = int(input("Digite sua idade: "))
 print("Você tem: %d Anos" % idade)
 ```
+
+# [Capitulo 4 ](https://linktr.ee/enthonyaraujo)
 
 
 
