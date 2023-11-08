@@ -354,7 +354,27 @@ print("Você tem: %d Anos" % idade)
 ```
 
 # [Capitulo 4 ](https://linktr.ee/enthonyaraujo)
+# Condições                                                                          
+Nem sempre todas as linhas dos programas serão executadas. Muitas vezes é mias interessante decidir que partes do programa devem ser executadas com base em uma condição.
 
+## if                                                                                                        
+O **if** nada mais é que o nosso “se”. Poderemos então entendê-lo em português da
+seguinte forma: se a condição for verdadeira, faça alguma coisa.
 
+```
+if <condição>
+  bloco verdadeiro
+```
+Exemplo de condição: 
+
+```
+a = int(input("Digite um numero: "))
+b = int(input("Digite outro numero: "))
+
+if a > b:
+    print("%d maior que %d" %(a,b))
+if b > a:
+    print("%d maior que %d"%(b,a))
+```
 
 
