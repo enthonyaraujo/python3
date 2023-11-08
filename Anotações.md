@@ -39,12 +39,12 @@ Windows 8 e 8.1, procure por Python 3.12 na lista de aplicativos e, então, por 
 
 No Linux, abra o terminal e digite:
 ```
-idle-python3.12 &
+python3
 ```
 
 No Mac OS X, abra o terminal e digite:
 ```
-IDLE3.12 &
+python3
 ```
 
 - Usando o interpretador como calculadora.
