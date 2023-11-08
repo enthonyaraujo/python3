@@ -33,8 +33,8 @@ Você pode baixar python em https://www.python.org/downloads/ .E escolher seu si
 Com o Python instalado, vamos começar a trabalhar.
 O IDLE é uma interface gráfica para o interpretador Python, permitindo também
 a edição e execução de nossos programas. No Windows Vista e no Windows 7,
-você deve ter uma pasta no menu Iniciar > Programas > Python 3.4. Escolha IDLE. No
-Windows 8 e 8.1, procure por Python 3.12 na lista de aplicativos e, então, por IDLE
+você deve ter uma pasta no menu Iniciar > Programas > Python3. Escolha IDLE. No
+Windows 8 e 8.1, procure por Python 3 na lista de aplicativos e, então, por IDLE
 (Python GUI).
 
 No Linux, abra o terminal e digite:
