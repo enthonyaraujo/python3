@@ -350,7 +350,8 @@ A função **input** sempre retorna valores em string, mesmo se for números. Pa
 
 ```
 idade = int(input("Digite sua idade: "))
-print("Você tem: %d Anos" % idade)
+peso = float(input("Digite seu peso: "))
+print("Você tem: %d Anos e pesa %f" % (idade,peso))
 ```
 
 # [Capitulo 4 ](https://linktr.ee/enthonyaraujo)
