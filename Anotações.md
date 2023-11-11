@@ -144,15 +144,15 @@ em Python também armazenam valores como verdadeiro ou falso.
 ## Variáveis numéricas 
 Dizemos que uma variável é numérica quando armazena números inteiros ou
 de ponto flutuante.
-- Os **números inteiros** são aqueles sem parte decimal.
-- **Números de ponto flutuante** ou decimais são aqueles com parte decimal                                         
+- Os `números inteiros` são aqueles sem parte decimal.
+- `Números de ponto flutuante` ou decimais são aqueles com parte decimal                                         
 Em Python, e na maioria das linguagens de programação, utilizamos o ponto, e
 não a vírgula.
 
 ## Variáveis do tipo Lógico
 Muitas vezes, queremos armazenar um conteúdo simples: verdadeiro ou falso em
-uma variável. Nesse caso, utilizaremos um tipo de variável chamado **tipo lógico
-ou booleano**. Em Python, escreveremos **True** para verdadeiro e **False** para falso.
+uma variável. Nesse caso, utilizaremos um tipo de variável chamado `tipo lógico
+ou booleano`. Em Python, escreveremos `True` para verdadeiro e `False` para falso.
 
 ```
 verdadeiro = True
@@ -359,7 +359,7 @@ print("Você tem: %d Anos e pesa %f" % (idade,peso))
 Nem sempre todas as linhas dos programas serão executadas. Muitas vezes é mias interessante decidir que partes do programa devem ser executadas com base em uma condição.
 
 ## if                                                                                                        
-O **if** nada mais é que o nosso “se”. Poderemos então entendê-lo em português da
+O `if` nada mais é que o nosso “se”. Poderemos então entendê-lo em português da
 seguinte forma: se a condição for verdadeira, faça alguma coisa.
 
 ```
