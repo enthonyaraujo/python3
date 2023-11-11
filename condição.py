@@ -1,9 +1,5 @@
-#exemplo de condição
-
-a = int(input("Digite um numero: "))
-b = int(input("Digite outro numero: "))
-
-if a > b:
-    print("%d maior que %d" %(a,b))
-if b > a:
-    print("%d maior que %d"%(b,a))
+idade = int(input("Digite a idade do seu carro: "))
+if idade <= 3:
+    print("Seu carro é novo") 
+if idade > 3:
+    print("Seu carro é velho") 
