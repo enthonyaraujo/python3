@@ -185,7 +185,7 @@ True
 ```
 
 ## Comentarios
-Em Python é usado # para escrever comentarios.
+Em Python é usado `#` para escrever comentarios.
 
 ## Operadores lógicos
 | Operador Python | Operação |
@@ -194,7 +194,7 @@ Em Python é usado # para escrever comentarios.
 | and | e |
 | or | ou |
 
-- O operador **not*8 (não) é o mais simples, pois precisa apenas de um operador.
+- O operador `not` (não) é o mais simples, pois precisa apenas de um operador.
 
 ```
 >>> not True
@@ -203,7 +203,7 @@ False
 True
 ```
 
-- O operador **and** (e) resulta verdadeiro apenas quando seus dois operadores forem verdadeiros.
+- O operador `and` (e) resulta verdadeiro apenas quando seus dois operadores forem verdadeiros.
 ```
 >>> True and True
 True
@@ -215,7 +215,7 @@ False
 False
 ```
 
-- O operador **or** (ou) resulta em false apenas se seus dois operadores também forem falsos. Se apenas um de seus operadores for verdadeiro, ou se os dois forem, o resultado da operação é verdadeiro.
+- O operador `or` (ou) resulta em false apenas se seus dois operadores também forem falsos. Se apenas um de seus operadores for verdadeiro, ou se os dois forem, o resultado da operação é verdadeiro.
 ```
 >>> True or True
 True
@@ -231,7 +231,7 @@ False
 
 Os operadores lógicos podem ser combinados em expressões lógicas mais complexas. Quando uma expressão tiver todos os operadores lógicos eles são executas com uma ordém.
 
-Operador **not** primeiramente, seguido do operador **and** e por fim o operador **or**. Vejamos o exemplo:
+Operador `not` primeiramente, seguido do operador `and` e por fim o operador `or`. Vejamos o exemplo:
 ```
 True or False and not True
 True or False and False
