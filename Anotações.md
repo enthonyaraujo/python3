@@ -243,7 +243,7 @@ True
 Variaveis do Tipo Strings armazenam nomes e textos em geral. São do tipo caractere.
 Para escrever em strings é utilizado aspas simples ('') ou aspas duplas ("").
 
-#### Função len()
+`Função len()`
 
 A função len() determina o tamanho de uma string.
 ```
@@ -264,7 +264,7 @@ A
 ````
 
 ## Concatenação
-Para juntar (concatear) duas ou mais strings utilizamos o simbolo de **(+)**.
+Para juntar (concatear) duas ou mais strings utilizamos o simbolo de `(+)`.
 ```
 >>> j = "ABC"
 >>> s = "DEF"
@@ -280,19 +280,19 @@ Marcadores de posição.
 | %s | Strings |
 | %f |Números decimais |
 
-Exemplo de uma composição **inteiro**
+Exemplo de uma composição `inteiro`
 ```
 >>> idade = 20
 >>> print("%d" % idade)
 20
 ```
-Exemplo de uma composição **float**
+Exemplo de uma composição `float`
 ```
 >>> peso = 58.60
 >>> print("%.2f" %peso)
 58.60
 ```
-Exemplo de uma composição **string**
+Exemplo de uma composição `string`
 ```
 >>> nome = "Enthony"
 >>> idade = 20
@@ -331,7 +331,7 @@ Um programa é executado linha por linha assim se você declara uma variavel, in
 ```
 
 ## Entrada de dados
-Para melhorar os programas é não trabalhar com valores conhecidos, e sim com valores que o usuario quiser colocar, pra o programa ficar mais intuitivo. Chamamos de entrada de dados (como o teclado do computador). A função **input** é utilizada para solicitar esses dados do usuario.
+Para melhorar os programas é não trabalhar com valores conhecidos, e sim com valores que o usuario quiser colocar, pra o programa ficar mais intuitivo. Chamamos de entrada de dados (como o teclado do computador). A função `input` é utilizada para solicitar esses dados do usuario.
 ```
 >>> x = input("Digite seu numero: ")
 Digite seu numero: 8
@@ -346,7 +346,7 @@ print("Voce digitou %s" % nome  )
 ```
 
 ## Conversão de entradas de dados
-A função **input** sempre retorna valores em string, mesmo se for números. Para resolver esse problema utilizando a função **int** ou **float**.
+A função `input` sempre retorna valores em string, mesmo se for números. Para resolver esse problema utilizando a função `int` ou `float`.
 
 ```
 idade = int(input("Digite sua idade: "))
