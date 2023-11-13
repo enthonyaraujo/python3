@@ -8,7 +8,7 @@ rec = (50-media*6)/4
 
 if media>=7:
     print("Aluno aprovado com media %.1f" %media)
-if media>5 or media<7:
+if media>5 and media<7:
     print("Vocẽ esta de recuperação, precisando de %.1f" %rec)
 if media<5:
     print("Aluno reprovado")
