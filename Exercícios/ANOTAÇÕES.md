@@ -346,7 +346,7 @@ print("Voce digitou %s" % nome  )
 ```
 
 ## Conversão de entradas de dados
-A função `input` sempre retorna valores em string, mesmo se for números. Para resolver esse problema utilizando a função `int` ou `float`.
+A função `input` sempre retorna valores em string, mesmo se for números. Para resolver esse problema podemos utilizar a função `int` ou `float`.
 
 ```
 idade = int(input("Digite sua idade: "))
