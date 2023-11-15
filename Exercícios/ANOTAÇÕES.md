@@ -447,3 +447,102 @@ print("O preço do produto é: %6.2f" %preço)
 # [Capítulo 5](https://linktr.ee/enthonyaraujo)
 # Repetições
 
+As estruturas de repetições é um recurso muito importante nas linguagem de programação. Permite executar a mesma parte do programa varias vezes.
+
+Podemos imaginar um programa que imprima os números de 1 a 100, seria muito trabalhoso ficar digitando:
+```py
+print(1)
+print(2)
+print(3)
+...
+...
+...
+```
+Outra forma de escrever:
+```py
+x=1
+print(x)
+x=2
+print(x)
+x=3
+print(x)
+...
+...
+...
+```
+Outra maneira de escrever incremetando:
+```py
+x=1
+print(x)
+x=x+1
+print(x)
+x=x+1
+print(x)
+...
+...
+...
+```
+Seria melhor declarar uma varialvel **x** onde x pode variar de 1 a 100 (1<x<100). Por isso usaremos os laços de repetições para facilitar a escrita do programa, as estruturas usadas são `while`, `do-while` e `for` .
+
+## while
+
+Formato da estrutura de repetição com **while**:
+```
+while <condição>:
+bloco
+```
+
+Para resolvermos o problema anterior de imprimir o números de 1 a 100 usando o **while** fica bem simples:
+
+```py
+x = 1 
+while x<=100:
+    print(x)
+    x = x+1
+```
+
+A execução desse programa seria um pouco diferente do que vimos até agora.
+Primeiramente, seria executada inicializando a variável x com o valor 1. A linha
+2 seria uma combinação de estrutura condicional com estrutura de repetição.
+Podemos entender a condição do while da mesma forma que a condição de if. A
+diferença é que, se a condição for verdadeira, repetiremos as linhas 3 e 4 (bloco)
+enquanto a avaliação da condição for verdadeira.
+
+## Contadores
+
+O poder das estruturas de repetições é muito interessante, principalmente quandoutilizamos condições com mais de uma variável. Imagine um problema onde deveríamos imprimir os números inteiros entre 1 e um valor digitado pelo usuário.
+
+```py
+final = int(input("Digite o ultimo número para imprimir: "))
+x = 1
+while x <= final:
+    print(x)
+    x = x + 1
+```
+Logo diremos que x é um contador. Um contador é uma variável utilizada para contar o número de ocorrências de um determinado evento; nesse caso, o número de repetições do while, que satisfaz às necessidades de nosso problema.
+
+O programa a seguir vai imprimir números pares onde o final é definido pelo o usuário:
+```py
+final = int(input("Digite o ultimo número para imprimir: "))
+x = 0
+while x <= final:
+    if x % 2 == 0:
+        print(x)
+    x = x + 1
+```
+
+O operador `%` em Python é lido como "por cento" ou "módulo", dependendo do contexto em que está sendo usado.
+
+Se x(numero) % == 0 **ele é par**
+
+Se x(numero) % == 1 **ele é impar**
+
+Outro exemplo, imprimir a tabuada de adição de 1 a 10 de um número digitado pelo usuário.
+
+```py
+n = int(input("Digite o ultimo número para imprimir: "))
+x = 1 
+while x <= 10:
+    print(n+x)
+    x=x+1
+```
