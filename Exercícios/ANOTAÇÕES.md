@@ -546,3 +546,5 @@ while x <= 10:
     print(n+x)
     x=x+1
 ```
+
+## Acumuladores
