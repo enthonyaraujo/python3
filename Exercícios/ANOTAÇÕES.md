@@ -489,7 +489,7 @@ Seria melhor declarar uma varialvel **x** onde x pode variar de 1 a 100 (1<x<100
 Formato da estrutura de repetição com **while**:
 ```
 while <condição>:
-bloco
+  bloco
 ```
 
 Para resolvermos o problema anterior de imprimir o números de 1 a 100 usando o **while** fica bem simples:
