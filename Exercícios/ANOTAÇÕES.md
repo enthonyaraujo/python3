@@ -1,4 +1,4 @@
-# [Capitulo 1](https://linktr.ee/enthonyaraujo)
+# [Capítulo 1](https://linktr.ee/enthonyaraujo)
 # Motivação
 
 Este livro foi escrito com o iniciante em programação em mente. Embora a
@@ -24,7 +24,7 @@ Observe que as aspas (") não aparecem na tela. Esse é um dos detalhes da progr
 precisamos marcar ou limitar o início e o fim de nossas mensagens com um símbolo, 
 nesse caso, aspas.
 
-# [Capitulo 2](https://linktr.ee/enthonyaraujo)
+# [Capítulo 2](https://linktr.ee/enthonyaraujo)
 # Preparando o ambiente
 
 Você pode baixar python em https://www.python.org/downloads/ .E escolher seu sistema, seja ele Windows, Linux ou MacOS.
@@ -121,7 +121,7 @@ outra variável, aumento, recebe o valor 5. Finalmente, em ❸ descrevemos a fó
 que calculará o valor do novo salário depois de receber um aumento. Teríamos,
 então, o resultado de **1575**.
 
-# [Capitulo 3](https://linktr.ee/enthonyaraujo)
+# [Capítulo 3](https://linktr.ee/enthonyaraujo)
 # Variáveis e entrada de dados
 
 Nomes de variaveis devem inciar com letra, mas podem ter números e o simbolo de underline(_)
@@ -354,7 +354,7 @@ peso = float(input("Digite seu peso: "))
 print("Você tem: %d Anos e pesa %f" % (idade,peso))
 ```
 
-# [Capitulo 4 ](https://linktr.ee/enthonyaraujo)
+# [Capítulo 4 ](https://linktr.ee/enthonyaraujo)
 # Condições                                                                          
 Nem sempre todas as linhas dos programas serão executadas. Muitas vezes é mias interessante decidir que partes do programa devem ser executadas com base em uma condição.
 
@@ -443,4 +443,7 @@ else:
     preço = 0
 print("O preço do produto é: %6.2f" %preço)
 ```
+
+# [Capítulo 5](https://linktr.ee/enthonyaraujo)
+# Repetições
 
