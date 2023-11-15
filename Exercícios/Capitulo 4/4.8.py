@@ -7,16 +7,13 @@ n2 = float(input("Digite o segundo número: "))
 operação = int(input("Digite a operação que deseja:\n 1- Soma \n 2- Subtração \n 3- Multiplicação \n 4- Divisão\n"))
 
 if operação == 1:
-    soma = n1+n2
-    print("%d + %d = %d" % (n1,n2,soma))
+    resul = n1+n2
 elif operação == 2:
-    subtração = n1-n2
-    print("%d - %d = %d" % (n1,n2,subtração))
+    resul = n1-n2
 elif operação == 3:
-    multiplicação = n1*n2
-    print("%d x %d = %d" % (n1,n2,multiplicação))
+    resul = n1*n2
 elif operação == 4:
-    divisão = n1/n2
-    print("%d / %d = %d" % (n1,n2,divisão))
+    resul = n1/n2
 else:
     print("Operação invalida, digite um valor entre 1 e 4.")
+print("Resultado = %d" %resul)
