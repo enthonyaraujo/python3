@@ -346,7 +346,7 @@ print("Voce digitou %s" % nome  )
 ```
 
 ## Conversão de entradas de dados
-A função `input` sempre retorna valores em string, mesmo se for números. Para resolver esse problema utilizando a função `int` ou `float`.
+A função `input` sempre retorna valores em string, mesmo se for números. Para resolver esse problema podemos utilizar a função `int` ou `float`.
 
 ```
 idade = int(input("Digite sua idade: "))
@@ -363,19 +363,84 @@ O `if` nada mais é que o nosso “se”. Poderemos então entendê-lo em portug
 seguinte forma: se a condição for verdadeira, faça alguma coisa.
 
 ```
-if <condição>
+if <condição>: 
   bloco verdadeiro
 ```
 Exemplo de condição: 
 
-```
-a = int(input("Digite um numero: "))
-b = int(input("Digite outro numero: "))
-
-if a > b:
-    print("%d maior que %d" %(a,b))
-if b > a:
-    print("%d maior que %d"%(b,a))
+```py
+idade = int(input("Digite a idade do seu carro: "))
+if idade <= 3:
+  print("Seu carro é novo") 
+if idade > 3:
+  print("Seu carro é velho") 
 ```
 
+## else
+
+Usamos `else` para especificar o que fazer caso o resultado da avaliação da condição seja falso, o else seria o **se não**.
+
+Exemplo de condição else: 
+
+```py
+idade = int(input("Digite a idade do seu carro: "))
+if idade <= 3:
+  print("Seu carro é novo")
+else:
+  print("Seu carro é velho")
+```
+
+## Estruturas aninhadas
+
+Nem sempre os programas serão tão simples e muitas vezes é preciso aninhar varios **if** no codigo. Aninhar signifca utilizar um **if** dentro do outro.
+
+Exemplo dessa condição: 
+
+```py
+categoria = int(input("Digite a caterogia do produto: "))
+
+if categoria == 1:
+    preço = 10
+else: 
+    if categoria == 2:
+        preço = 18 
+    else:
+        if categoria == 3:
+            preço = 23 
+        else:
+            if categoria == 4:
+                preço = 26 
+            else:
+                if categoria == 5:
+                    preço = 31
+                else:
+                    print("Categoria Invalida digite um valor entre 1 e 5")
+                    preço = 0
+print("O preço do produto é: %6.2f" %preço)
+```
+
+## elif
+
+Uma solução para um problema com varios **if**s é a cláusula **elif**. Com ele você não precisará ficar colocando **if** e **else** simultaneamente.
+
+Exemplo anterior usando o **elif**
+
+```py
+categoria = int(input("Digite a caterogia do produto: "))
+
+if categoria == 1:
+    preço = 10
+elif categoria == 2:
+    preço = 18 
+elif categoria == 3:
+    preço = 23 
+elif categoria == 4:
+    preço = 26 
+elif categoria == 5:
+    preço = 31
+else:
+    print("Categoria Invalida digite um valor entre 1 e 5")
+    preço = 0
+print("O preço do produto é: %6.2f" %preço)
+```
 
