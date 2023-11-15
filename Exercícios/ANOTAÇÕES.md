@@ -131,7 +131,7 @@ Exemplos:
 | :--------- | :------: | :------: |
 | a1 | Sim | Embora contenha um número, o nome a1 inicia com letra. | 
 | velocidade | Sim | Nome formado por letras. |
-| velocidade90 | Sim Nome formado por letras e números, mas iniciado por letra. |
+| velocidade90 | Sim | Nome formado por letras e números, mas iniciado por letra. |
 | salário_médio | Sim | O símbolo sublinha (_) é permitido e facilita a leitura de nomes grandes. |
 | salário médio | Não | Nomes de variáveis não podem conter espaços em branco. |
 | _b | Sim | O sublinha (_) é aceito em nomes de variáveis, mesmo no início. |
