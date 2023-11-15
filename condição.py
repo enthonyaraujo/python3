@@ -1,20 +1,6 @@
-categoria = int(input("Digite a caterogia do produto: "))
+n = int(input("Digite o ultimo número para imprimir: "))
 
-if categoria == 1:
-    preço = 10
-else: 
-    if categoria == 2:
-        preço = 18 
-    else:
-        if categoria == 3:
-            preço = 23 
-        else:
-            if categoria == 4:
-                preço = 26 
-            else:
-                if categoria == 5:
-                    preço = 31
-                else:
-                    print("Categoria Invalida digite um valor entre 1 e 5")
-             preço = 0
-print("O preço do produto é: %6.2f" %preço)
+x = 1 
+while x <= 10:
+    print(n+x)
+    x=x+1
