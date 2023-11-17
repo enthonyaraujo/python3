@@ -25,13 +25,13 @@ while True:
         rec = (50-media*6)/4
 
         if media>=7 and media<=10:
-            janela['resultado'].update("Aluno aprovado com media %.1f" %media)
+            janela['resultado'].update("Aluno(a) aprovado com média %.1f" %media)
         elif media>=5 and media<7:
-            janela['resultado'].update("Você esta de recuperação, precisando de %.1f" %rec)
+            janela['resultado'].update("Você está de recuperação, precisando de %.1f" %rec)
         elif media<5:
-            janela['resultado'].update("Aluno Reprovado.")
+            janela['resultado'].update("Aluno(a) reprovado.")
         else: 
-            janela['resultado'].update("Operação Invalida!\nDigite a nota corretamente.")
+            janela['resultado'].update("Operação invalida!\nDigite a nota corretamente.")
             
         
 janela.close()
