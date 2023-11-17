@@ -6,9 +6,11 @@ n3 = float(input("Informe a nota da TERCEIRA UNIDADE: "))
 media = (n1+n2+n3)/3
 rec = (50-media*6)/4
 
-if media>=7:
+if media>=7 and media<=10:
     print("Aluno aprovado com media %.1f" %media)
-if media>=5 and media<7:
-    print("Vocẽ esta de recuperação, precisando de %.1f" %rec)
-if media<5:
+elif media>=5 and media<7:
+        print("Vocẽ esta de recuperação, precisando de %.1f" %rec)
+elif media<5:
     print("Aluno reprovado")
+else: 
+    print("Operação Invalida")
