@@ -1,6 +1,5 @@
 import PySimpleGUI as sg
 
-
 sg.theme('Default') 
 layout = [
             [sg.Text('1ª UNIDADE: '), sg.Input(key='nota1')],
@@ -27,7 +26,7 @@ while True:
         if media>=7 and media<=10:
             janela['resultado'].update("Aluno(a) aprovado com média %.1f" %media)
         elif media>=5 and media<7:
-            janela['resultado'].update("Você está de recuperação, precisando de %.1f" %rec)
+            janela['resultado'].update("Aluno(a) de recuperação, precisando de %.1f" %rec)
         elif media<5:
             janela['resultado'].update("Aluno(a) reprovado.")
         else: 
