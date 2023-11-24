@@ -1,15 +1,6 @@
 # [Capítulo 1](https://linktr.ee/enthonyaraujo)
 # Motivação
 
-Este livro foi escrito com o iniciante em programação em mente. Embora a
-linguagem Python seja muito poderosa e rica em recursos modernos de programação,
-este livro não pretende ensinar apenas a linguagem em si, mas ensinar a
-programar em qualquer linguagem. Alguns recursos da linguagem Python não
-foram utilizados. O objetivo foi privilegiar os exercícios de lógica de programação
-e melhor preparar o leitor para outras linguagens. Essa escolha não impediu que
-recursos poderosos da linguagem fossem apresentados, mas este livro não é uma
-referência da linguagem Python.
-
 O capitulo 1 visa a apresentar o desafio de aprender e estimular o estudo da
 programação de computadores, apresentando problemas e aplicações do dia a dia.
 
@@ -548,3 +539,51 @@ while x <= 10:
 ```
 
 ## Acumuladores
+
+Nem só de contadores precisamos. Em programas para calcular o total de uma soma, por exemplo, precisaremos de acumuladores. A diferença entre um contador e um acumulador é que nos contadores o valor adicionado é constante e, nos acumuladores, variável.
+```py
+n = 1
+soma = 0
+
+while n<=10:
+    x = int(input('Digite o %d numero:' %n))
+    soma = soma + x #ACUMULADOR
+    n += 1 #CONTADOR
+    
+print('Soma: %d' %soma)
+```
+
+## Interrompendo a repetição
+
+O comando `break` é utilizado para interromper a execução do `while` idependente do valor atual de sua condição.
+```py
+s = 0
+
+while True:
+    v = int(input('Digite um número a somar ou 0 para sair: '))
+    if v == 0:
+        break
+    s = s+v
+print(s)
+```
+Nesse exemplo, substituímos a condição do while por True em . Dessa forma, o while executará para sempre, pois o valor de sua condição de parada (True) é constante. Temos a instrução break sendo ativada dentro de um if, especificamente quando v é zero. Porém, enquanto v for diferente de zero, a repetição continuará a somar v a s.
+
+## Repetições aninhadas
+
+Podemos combinar vários `while` de forma a obter resultados mais interessantes, como a repetição com incremento de duas variáveis.
+
+Exemplo com uma tabuada:
+```py
+tabuada = 1
+
+while tabuada <=10:
+    numero = 1
+    print('Tabuada de %d' %tabuada)
+    while numero <=10:
+        print('%d x %d = %d' %(tabuada,numero,numero*tabuada    ))
+        numero +=1
+    tabuada +=1
+```
+
+
+
