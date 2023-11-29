@@ -555,7 +555,7 @@ print('Soma: %d' %soma)
 
 ## Interrompendo a repetição
 
-O comando `break` é utilizado para interromper a execução do `while` idependente do valor atual de sua condição.
+O comando `break` é utilizado para interromper a execução do `while` independente do valor atual de sua condição.
 ```py
 s = 0
 
