@@ -584,6 +584,9 @@ while tabuada <=10:
         numero +=1
     tabuada +=1
 ```
+# [Capítulo 6](https://linktr.ee/enthonyaraujo)
+# Listas
+
 
 
 
