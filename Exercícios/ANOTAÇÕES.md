@@ -588,5 +588,53 @@ while tabuada <=10:
 # Listas
 
 
+## Uma lista vazia
+
+Representamos listas utilizando colchetes `[]`, por exemplo de uma lista vazia:
+```python
+Lista = []
+```
+
+## Lista com elementos
+```python
+lista = [1,2,3,4,5]
+print(len(lista)) #tamanho da lista
+print(lista[0])  #seleciona primeiro item da lista
+print(lista[1])  #seleciona segundo item da lista
+print(lista[2])  #seleciona terceiro item da lista
+print(lista[3])  #seleciona quarto item da lista
+print(lista[4])  #seleciona quinto item da lista
+print(lista) #mostra toda a lista
+```
+# Modificando itens da lista
+```python
+lista = [1,2,3,4,5]
+print(lista[0])  #primeiro item da lista
+lista[0] = 2 #modifica de 1 para 2
+print(lista) #mostra o valor modificado  
+```
+
+# Cálculo de média utilizando listas
+
+```py
+notas = []
+n1 = int(input('Digite a primeria nota: '))
+n2 = int(input('Digite a segunda nota: '))
+n3 = int(input('Digite a terceira nota: '))
+notas.extend([n1,n2,n3])
+soma = 0
+x = 0
+while x<3:
+    soma += notas[x]
+    x += 1 
+print('Média: %.1f ' % (soma/x))
+    
+```
+
+
+
+
+
+
 
 
