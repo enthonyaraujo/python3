@@ -9,7 +9,7 @@ n = int(input("Digite um número inteiro para verificar se ele é primo ou não:
 if n<0:
     print('Invalido')
 if n == 0 or n == 1:
-    print('Não são primos.')
+    print('%d não é primo' %n )
 else: 
     if n % 2 == 0 and n > 2:
         print('%d não é primo' %n)
