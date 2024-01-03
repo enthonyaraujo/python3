@@ -69,7 +69,7 @@ print (a + b) (3)
 Vemos que cada linha significa uma coisa. Nas linhas 1 e 2, **a recebe 2** e **b recebe 3**, que após isso  a função **print** realiza a impressão, mas, antes, o resultado de **a + b** é calculado.
 
 - Exemplo mostrado no interpretador
-```
+```py
 >>> a = 2                                              
 >>> b = 3                                                                    
 >>> print ( a + b )                                                            
@@ -80,13 +80,13 @@ da terceira linha é mostrado.
 
 Outra maneira de resolver o problema seria: 
 - Outra forma de resolver o problema
-```
+```py
 print (2 + 3)
 ```
 Dessa forma o resultado seria o mesmo:
 
 - Outra forma de resolver o problema
-```
+```py
 print (5)
 ```
 Então, por que escolhemos resolver o problema usando variáveis? Primeiramente,
@@ -102,7 +102,7 @@ possível, de forma que possamos alterá-los caso precisemos e, mais importante,
 que possamos entendê-los mais tarde.
 
 - Cálculo de aumento de salário
-```
+```py
 salário = 1500 ❶
 aumento = 5 ❷
 print (salário + (salário * aumento / 100)) ❸
@@ -119,7 +119,7 @@ Nomes de variaveis devem inciar com letra, mas podem ter números e o simbolo de
 
 Exemplos: 
 | Nome | Válido | Comentários |
-| :--------- | :------: | :------: |
+| :--------: | :------: | :------: |
 | a1 | Sim | Embora contenha um número, o nome a1 inicia com letra. | 
 | velocidade | Sim | Nome formado por letras. |
 | velocidade90 | Sim | Nome formado por letras e números, mas iniciado por letra. |
@@ -145,7 +145,7 @@ Muitas vezes, queremos armazenar um conteúdo simples: verdadeiro ou falso em
 uma variável. Nesse caso, utilizaremos um tipo de variável chamado `tipo lógico
 ou booleano`. Em Python, escreveremos `True` para verdadeiro e `False` para falso.
 
-```
+```py
 verdadeiro = True
 Falso = False
 ```
@@ -153,7 +153,7 @@ Falso = False
 ## Operadores relacionais
 
 Operador | Operação | Símbolo matemático |
-| :--------- | :------: | :------: |
+| :--------: | :------: | :------: |
 | == | igualdade | = |
 | > | maior que | > |
 | < | menor que | < | 
@@ -162,7 +162,7 @@ Operador | Operação | Símbolo matemático |
 | <= | menor ou igual | ≤ |
 
 Exemplo: 
-```
+```py
 >>> a=1
 >>> b=5
 >>> c=2
@@ -187,7 +187,7 @@ Em Python é usado `#` para escrever comentarios.
 
 - O operador `not` (não) é o mais simples, pois precisa apenas de um operador.
 
-```
+```py
 >>> not True
 False
 >>> not False
@@ -195,7 +195,7 @@ True
 ```
 
 - O operador `and` (e) resulta verdadeiro apenas quando seus dois operadores forem verdadeiros.
-```
+```py
 >>> True and True
 True
 >>> True and False
@@ -207,7 +207,7 @@ False
 ```
 
 - O operador `or` (ou) resulta em false apenas se seus dois operadores também forem falsos. Se apenas um de seus operadores for verdadeiro, ou se os dois forem, o resultado da operação é verdadeiro.
-```
+```py
 >>> True or True
 True
 >>> True or False
@@ -223,7 +223,7 @@ False
 Os operadores lógicos podem ser combinados em expressões lógicas mais complexas. Quando uma expressão tiver todos os operadores lógicos eles são executas com uma ordém.
 
 Operador `not` primeiramente, seguido do operador `and` e por fim o operador `or`. Vejamos o exemplo:
-```
+```py
 True or False and not True
 True or False and False
 True or False
@@ -237,7 +237,7 @@ Para escrever em strings é utilizado aspas simples ('') ou aspas duplas ("").
 `Função len()`
 
 A função len() determina o tamanho de uma string.
-```
+```py
 >>> print(len("Ola a todos"))
 11
 ```
@@ -248,7 +248,7 @@ Uma característica de strings é poder acessar seu conteúdo caractere a caract
 | A | B | C | D | E | F | 
 
 Para acessar os indices em qualquer string é utilizado colchetes **[]**, e dentro do colchetes o indice que você quer escolher.
-```
+```py
 >>> letras = "ABCDEF"
 >>> print(letras[0])
 A
@@ -256,7 +256,7 @@ A
 
 ## Concatenação
 Para juntar (concatear) duas ou mais strings utilizamos o simbolo de `(+)`.
-```
+```py
 >>> j = "ABC"
 >>> s = "DEF"
 >>> print(j+s)
@@ -272,7 +272,7 @@ Marcadores de posição.
 | %f |Números decimais |
 
 Exemplo de uma composição `inteiro`
-```
+```py
 >>> idade = 20
 >>> print("%d" % idade)
 20
@@ -284,7 +284,7 @@ Exemplo de uma composição `float`
 58.60
 ```
 Exemplo de uma composição `string`
-```
+```py
 >>> nome = "Enthony"
 >>> idade = 20
 >>> peso = 58.60
@@ -295,13 +295,13 @@ Enthony tem 20 anos e pesa 58.60 kilos
 ## Fatiamento 
 Podemos fatiar uma string, por exemplo se temos a string ABBCDEF, utilizando os indices [0:2], podemos fatiar para que apareça apenas o AB, isso explica que o número da direita diz a posição inicial, e o do outro lado a posição final. Nesse caso o C não está incluso, por que é até onde o fatiamento vai.
 
-```
+```py
 >>> s = "ABCDEF"
 >>> print(s[0:2])
 AB
 ```
 Se quisermos o CD:
-```
+```py
 >>> s = "ABCDEF"
 >>> print(s[2:4])
 CD
@@ -311,7 +311,7 @@ Podemos também utilizar valores negativos, como **-1**, nesse caso ele mostra o
 
 ## Sequências e tempo
 Um programa é executado linha por linha assim se você declara uma variavel, iniciamente ela pode ter um valor e depois ter outro, ou seja, ela pode mudar com o tempo.
-```
+```py
 >>> divida = 0 #inicialmente começa com 0
 >>> compra = 100
 >>> divida = divida + compra #apos aumenta mais 100
@@ -323,14 +323,14 @@ Um programa é executado linha por linha assim se você declara uma variavel, in
 
 ## Entrada de dados
 Para melhorar os programas é não trabalhar com valores conhecidos, e sim com valores que o usuario quiser colocar, pra o programa ficar mais intuitivo. Chamamos de entrada de dados (como o teclado do computador). A função `input` é utilizada para solicitar esses dados do usuario.
-```
+```py
 >>> x = input("Digite seu numero: ")
 Digite seu numero: 8
 >>> print(x)
 8
 ```
 
-```
+```py
 Exemplo de entrada de dados com **String**
 nome = input("Digite seu nome: ")
 print("Voce digitou %s" % nome  )
@@ -339,7 +339,7 @@ print("Voce digitou %s" % nome  )
 ## Conversão de entradas de dados
 A função `input` sempre retorna valores em string, mesmo se for números. Para resolver esse problema podemos utilizar a função `int` ou `float`.
 
-```
+```py
 idade = int(input("Digite sua idade: "))
 peso = float(input("Digite seu peso: "))
 print("Você tem: %d Anos e pesa %f" % (idade,peso))
@@ -596,7 +596,7 @@ Lista = []
 ```
 
 ## Lista com elementos
-```python
+```py
 lista = [1,2,3,4,5]
 print(len(lista)) #tamanho da lista
 print(lista[0])  #seleciona primeiro item da lista
@@ -607,7 +607,7 @@ print(lista[4])  #seleciona quinto item da lista
 print(lista) #mostra toda a lista
 ```
 # Modificando itens da lista
-```python
+```py
 lista = [1,2,3,4,5]
 print(lista[0])  #primeiro item da lista
 lista[0] = 2 #modifica de 1 para 2
